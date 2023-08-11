@@ -4,4 +4,4 @@ FF14 Simulator Project
 
 #### Developing!!!!!!!!!!!!
 
-I'm trying it~
+I'm just trying~

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		086C7C6D2A866A6F00A1F26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C6C2A866A6F00A1F26D /* AppDelegate.swift */; };
-		086C7C6F2A866A6F00A1F26D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C6E2A866A6F00A1F26D /* SceneDelegate.swift */; };
 		086C7C712A866A6F00A1F26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C702A866A6F00A1F26D /* ViewController.swift */; };
 		086C7C742A866A6F00A1F26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086C7C722A866A6F00A1F26D /* Main.storyboard */; };
 		086C7C762A866A7000A1F26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086C7C752A866A7000A1F26D /* Assets.xcassets */; };
@@ -16,6 +15,11 @@
 		086C7C842A866A7000A1F26D /* NLFFSimuProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C832A866A7000A1F26D /* NLFFSimuProTests.swift */; };
 		086C7C8E2A866A7000A1F26D /* NLFFSimuProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C8D2A866A7000A1F26D /* NLFFSimuProUITests.swift */; };
 		086C7C902A866A7000A1F26D /* NLFFSimuProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7C8F2A866A7000A1F26D /* NLFFSimuProUITestsLaunchTests.swift */; };
+		086C7CA12A866D8C00A1F26D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7CA02A866D8C00A1F26D /* HomeViewController.swift */; };
+		086C7CA82A866EB400A1F26D /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7CA72A866EB400A1F26D /* BaseTabbarController.swift */; };
+		086C7CAA2A866EF200A1F26D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7CA92A866EF200A1F26D /* BaseNavigationController.swift */; };
+		086C7CAD2A866F4800A1F26D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7CAC2A866F4800A1F26D /* SettingViewController.swift */; };
+		086C7CAF2A866FC100A1F26D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C7CAE2A866FC100A1F26D /* BaseViewController.swift */; };
 		18F53E0E6C468247944984BF /* Pods_NLFFSimuProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99C601A3927E1BB8394199D /* Pods_NLFFSimuProTests.framework */; };
 		45DB46EAD416B5D513797238 /* Pods_NLFFSimuPro_NLFFSimuProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F79B8714AB9A08B14F260FA1 /* Pods_NLFFSimuPro_NLFFSimuProUITests.framework */; };
 		CFA5B3ADF126316053B24954 /* Pods_NLFFSimuPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022E14A2E2A2C9887C75262A /* Pods_NLFFSimuPro.framework */; };
@@ -42,7 +46,6 @@
 		022E14A2E2A2C9887C75262A /* Pods_NLFFSimuPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NLFFSimuPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		086C7C692A866A6F00A1F26D /* NLFFSimuPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLFFSimuPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		086C7C6C2A866A6F00A1F26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		086C7C6E2A866A6F00A1F26D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		086C7C702A866A6F00A1F26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		086C7C732A866A6F00A1F26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		086C7C752A866A7000A1F26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +56,11 @@
 		086C7C892A866A7000A1F26D /* NLFFSimuProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLFFSimuProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		086C7C8D2A866A7000A1F26D /* NLFFSimuProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLFFSimuProUITests.swift; sourceTree = "<group>"; };
 		086C7C8F2A866A7000A1F26D /* NLFFSimuProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLFFSimuProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		086C7CA02A866D8C00A1F26D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		086C7CA72A866EB400A1F26D /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		086C7CA92A866EF200A1F26D /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		086C7CAC2A866F4800A1F26D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		086C7CAE2A866FC100A1F26D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2ABC537281763151E2169014 /* Pods-NLFFSimuPro-NLFFSimuProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLFFSimuPro-NLFFSimuProUITests.debug.xcconfig"; path = "Target Support Files/Pods-NLFFSimuPro-NLFFSimuProUITests/Pods-NLFFSimuPro-NLFFSimuProUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C0A71E203631B3E5F26CDF8 /* Pods-NLFFSimuPro-NLFFSimuProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLFFSimuPro-NLFFSimuProUITests.release.xcconfig"; path = "Target Support Files/Pods-NLFFSimuPro-NLFFSimuProUITests/Pods-NLFFSimuPro-NLFFSimuProUITests.release.xcconfig"; sourceTree = "<group>"; };
 		879EC5CBCC999D23BB2B2EEB /* Pods-NLFFSimuProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NLFFSimuProTests.release.xcconfig"; path = "Target Support Files/Pods-NLFFSimuProTests/Pods-NLFFSimuProTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,12 +124,9 @@
 		086C7C6B2A866A6F00A1F26D /* NLFFSimuPro */ = {
 			isa = PBXGroup;
 			children = (
-				086C7C6C2A866A6F00A1F26D /* AppDelegate.swift */,
-				086C7C6E2A866A6F00A1F26D /* SceneDelegate.swift */,
-				086C7C702A866A6F00A1F26D /* ViewController.swift */,
-				086C7C722A866A6F00A1F26D /* Main.storyboard */,
-				086C7C752A866A7000A1F26D /* Assets.xcassets */,
-				086C7C772A866A7000A1F26D /* LaunchScreen.storyboard */,
+				086C7C9E2A866D7500A1F26D /* Module */,
+				086C7C9D2A866B7A00A1F26D /* Sources */,
+				086C7C9C2A866B2400A1F26D /* Support Files */,
 				086C7C7A2A866A7000A1F26D /* Info.plist */,
 			);
 			path = NLFFSimuPro;
@@ -144,6 +149,61 @@
 			path = NLFFSimuProUITests;
 			sourceTree = "<group>";
 		};
+		086C7C9C2A866B2400A1F26D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				086C7C6C2A866A6F00A1F26D /* AppDelegate.swift */,
+				086C7C702A866A6F00A1F26D /* ViewController.swift */,
+				086C7C722A866A6F00A1F26D /* Main.storyboard */,
+				086C7C772A866A7000A1F26D /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		086C7C9D2A866B7A00A1F26D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				086C7C752A866A7000A1F26D /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		086C7C9E2A866D7500A1F26D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				086C7CA22A866E7100A1F26D /* Base */,
+				086C7CAB2A866F3E00A1F26D /* Setting */,
+				086C7C9F2A866D7C00A1F26D /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		086C7C9F2A866D7C00A1F26D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				086C7CA02A866D8C00A1F26D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		086C7CA22A866E7100A1F26D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				086C7CA72A866EB400A1F26D /* BaseTabbarController.swift */,
+				086C7CA92A866EF200A1F26D /* BaseNavigationController.swift */,
+				086C7CAE2A866FC100A1F26D /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		086C7CAB2A866F3E00A1F26D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				086C7CAC2A866F4800A1F26D /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		1F9BCF8D808F256F3E6797F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +214,6 @@
 				C35E4B8DFD4FC0D8B083A79E /* Pods-NLFFSimuProTests.debug.xcconfig */,
 				879EC5CBCC999D23BB2B2EEB /* Pods-NLFFSimuProTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +238,7 @@
 				086C7C652A866A6F00A1F26D /* Sources */,
 				086C7C662A866A6F00A1F26D /* Frameworks */,
 				086C7C672A866A6F00A1F26D /* Resources */,
+				5D8746E06743D4BCAF9DC0C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +276,7 @@
 				086C7C852A866A7000A1F26D /* Sources */,
 				086C7C862A866A7000A1F26D /* Frameworks */,
 				086C7C872A866A7000A1F26D /* Resources */,
+				9E5A2A58F6CC17A597C004C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5D8746E06743D4BCAF9DC0C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro/Pods-NLFFSimuPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro/Pods-NLFFSimuPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro/Pods-NLFFSimuPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6DFF2594AEB8D6F923A6D56C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -318,6 +396,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5A2A58F6CC17A597C004C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro-NLFFSimuProUITests/Pods-NLFFSimuPro-NLFFSimuProUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro-NLFFSimuProUITests/Pods-NLFFSimuPro-NLFFSimuProUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NLFFSimuPro-NLFFSimuProUITests/Pods-NLFFSimuPro-NLFFSimuProUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8F5E59FF50F7D8848CA1A9A /* [CP] Check Pods Manifest.lock */ = {
@@ -373,7 +468,11 @@
 			files = (
 				086C7C712A866A6F00A1F26D /* ViewController.swift in Sources */,
 				086C7C6D2A866A6F00A1F26D /* AppDelegate.swift in Sources */,
-				086C7C6F2A866A6F00A1F26D /* SceneDelegate.swift in Sources */,
+				086C7CA82A866EB400A1F26D /* BaseTabbarController.swift in Sources */,
+				086C7CAA2A866EF200A1F26D /* BaseNavigationController.swift in Sources */,
+				086C7CA12A866D8C00A1F26D /* HomeViewController.swift in Sources */,
+				086C7CAF2A866FC100A1F26D /* BaseViewController.swift in Sources */,
+				086C7CAD2A866F4800A1F26D /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +578,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -533,7 +632,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -549,8 +648,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K534XERP6Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NLFFSimuPro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -563,8 +665,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.neal.NLFFSimuPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neal.normal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Normal Total Develope";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -577,8 +681,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K534XERP6Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NLFFSimuPro/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -591,8 +698,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.neal.NLFFSimuPro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neal.normal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Normal Total Develope";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

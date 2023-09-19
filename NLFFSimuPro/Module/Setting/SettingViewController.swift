@@ -13,6 +13,8 @@ class SettingViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
+        
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {

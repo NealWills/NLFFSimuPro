@@ -1,0 +1,121 @@
+{
+    "status": 0,
+    "msg": "",
+    "data": [
+        {
+            "id": "1",
+            "level": "零式万魔殿 荒天之狱1",
+            "levelRemark": "p9s",
+            "levelIcon": "",
+            "levelColor": "#FFFFFF",
+            "levelRemarkColor": "#FFFFFFCC",
+            "isValid": 1,
+            "cardColor": "#8E44AD",
+            "mechanismList": [
+                {
+                    "mechanism": "1麻",
+                    "tactics": "日基-马拉松",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "1麻",
+                    "tactics": "日基-无脑法",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "2麻",
+                    "tactics": "日基",
+                    "isValid": 1
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "level": "零式万魔殿 荒天之狱2",
+            "levelRemark": "p10s",
+            "levelIcon": "",
+            "levelColor": "#FFFFFF",
+            "levelRemarkColor": "#FFFFFFCC",
+            "isValid": 1,
+            "cardColor": "#F39C12",
+            "mechanismList": [
+                {
+                    "mechanism": "麻将",
+                    "tactics": "日基-常规",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "麻将",
+                    "tactics": "日基-无脑",
+                    "isValid": 1
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "level": "零式万魔殿 荒天之狱3",
+            "levelRemark": "p11s",
+            "levelIcon": "",
+            "levelColor": "#FFFFFF",
+            "levelRemarkColor": "#FFFFFFCC",
+            "isValid": 1,
+            "cardColor": "#3498DB",
+            "mechanismList": [
+                {
+                    "mechanism": "戒律",
+                    "tactics": "日基",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "理法",
+                    "tactics": "日基-常规",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "光之奔流",
+                    "tactics": "日基-常规",
+                    "isValid": 1
+                },
+                {
+                    "mechanism": "暗之奔流",
+                    "tactics": "日基-常规",
+                    "isValid": 1
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "level": "零式万魔殿 荒天之狱4",
+            "levelRemark": "p12s",
+            "levelIcon": "",
+            "levelColor": "#FFFFFF",
+            "levelRemarkColor": "#FFFFFFCC",
+            "isValid": 1,
+            "cardColor": "#E74C3C",
+            "mechanismList": [
+                {
+                    "mechanism": "蛾子转身",
+                    "tactics": "日基",
+                    "isValid": 1
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "level": "究极神兵绝境战",
+            "levelRemark": "绝神兵(小召唤)",
+            "levelIcon": "",
+            "levelColor": "#FFFFFF",
+            "levelRemarkColor": "#FFFFFFCC",
+            "isValid": 1,
+            "cardColor": "#1ABC9C",
+            "mechanismList": [
+                {
+                    "mechanism": "【迦楼罗】挡风枪",
+                    "tactics": "野队常规",
+                    "isValid": 1
+                }
+            ]
+        }
+    ]
+}

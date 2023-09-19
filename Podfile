@@ -6,7 +6,10 @@ target 'NLFFSimuPro' do
   use_frameworks!
   
   pod 'SnapKit'
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Kingfisher'
+  
   # Pods for NLFFSimuPro
 
   target 'NLFFSimuProTests' do
